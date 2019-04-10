@@ -1,12 +1,6 @@
-import java.math.BigInteger;
-
 public class Puzzle5 {
-
-    public static void main(String args[]) {
-
-
-        System.out.print("Java");
-        System.out.println("Puzzle");
-        // \u000d System.out.println("JavaPuzzle");
+    public static void main(String[] args) {
+        int i = (int) (char) (byte) (int) (char) (long) - 1;
+        System.out.println((i - 65533) - 1.10);
     }
 }

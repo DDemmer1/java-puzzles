@@ -2,11 +2,12 @@ import java.math.BigInteger;
 
 public class Puzzle4 {
     public static void main(String args[]){
-        BigInteger big1 = new BigInteger("1000");
-        big1.add(new BigInteger("2"));
+        StringBuilder sb = new StringBuilder('P');
+        sb.append("uzzle");
 
-        BigInteger big2 = new BigInteger("1002");
+        char[] puzzle = {80,'u','z','z','l',101};
+        System.out.println(sb.toString().equals(String.copyValueOf(puzzle)));
 
-        System.out.println(big1.equals(big2));
+//      Check out twitter.com\u000d  System.out.println("Unicode rocks 🤘");
     }
 }
